@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/rafal/cpp/Logger/tst/LogFormatterTest.cpp" "/home/rafal/cpp/Logger/build/tst/CMakeFiles/Logger_tst.dir/LogFormatterTest.cpp.o"
   "/home/rafal/cpp/Logger/tst/Test.cpp" "/home/rafal/cpp/Logger/build/tst/CMakeFiles/Logger_tst.dir/Test.cpp.o"
   "/home/rafal/cpp/Logger/tst/main.cpp" "/home/rafal/cpp/Logger/build/tst/CMakeFiles/Logger_tst.dir/main.cpp.o"
   )

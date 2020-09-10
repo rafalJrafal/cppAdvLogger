@@ -171,6 +171,33 @@ Logger_tst/fast:
 	cd /home/rafal/cpp/Logger/build && $(MAKE) -f tst/CMakeFiles/Logger_tst.dir/build.make tst/CMakeFiles/Logger_tst.dir/build
 .PHONY : Logger_tst/fast
 
+LogFormatterTest.o: LogFormatterTest.cpp.o
+
+.PHONY : LogFormatterTest.o
+
+# target to build an object file
+LogFormatterTest.cpp.o:
+	cd /home/rafal/cpp/Logger/build && $(MAKE) -f tst/CMakeFiles/Logger_tst.dir/build.make tst/CMakeFiles/Logger_tst.dir/LogFormatterTest.cpp.o
+.PHONY : LogFormatterTest.cpp.o
+
+LogFormatterTest.i: LogFormatterTest.cpp.i
+
+.PHONY : LogFormatterTest.i
+
+# target to preprocess a source file
+LogFormatterTest.cpp.i:
+	cd /home/rafal/cpp/Logger/build && $(MAKE) -f tst/CMakeFiles/Logger_tst.dir/build.make tst/CMakeFiles/Logger_tst.dir/LogFormatterTest.cpp.i
+.PHONY : LogFormatterTest.cpp.i
+
+LogFormatterTest.s: LogFormatterTest.cpp.s
+
+.PHONY : LogFormatterTest.s
+
+# target to generate assembly for a file
+LogFormatterTest.cpp.s:
+	cd /home/rafal/cpp/Logger/build && $(MAKE) -f tst/CMakeFiles/Logger_tst.dir/build.make tst/CMakeFiles/Logger_tst.dir/LogFormatterTest.cpp.s
+.PHONY : LogFormatterTest.cpp.s
+
 Test.o: Test.cpp.o
 
 .PHONY : Test.o
@@ -238,6 +265,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... list_install_components"
 	@echo "... install"
+	@echo "... LogFormatterTest.o"
+	@echo "... LogFormatterTest.i"
+	@echo "... LogFormatterTest.s"
 	@echo "... Test.o"
 	@echo "... Test.i"
 	@echo "... Test.s"

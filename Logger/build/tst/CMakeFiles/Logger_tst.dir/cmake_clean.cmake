@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Logger_tst.dir/LogFormatterTest.cpp.o"
   "CMakeFiles/Logger_tst.dir/Test.cpp.o"
   "CMakeFiles/Logger_tst.dir/main.cpp.o"
   "Logger_tst"
