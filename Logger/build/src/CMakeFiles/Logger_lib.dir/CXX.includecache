@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/LogFormatter.h
+
+../include/Logger.h
+LogFormatter.h
+../include/LogFormatter.h
+
+/home/rafal/cpp/Logger/src/LogFormatter.cpp
+LogFormatter.h
+/home/rafal/cpp/Logger/src/LogFormatter.h
+
+/home/rafal/cpp/Logger/src/Logger.cpp
+iostream
+-
+Logger.h
+/home/rafal/cpp/Logger/src/Logger.h
+
+/home/rafal/cpp/Logger/src/main.cpp
+

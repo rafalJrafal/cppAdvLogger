@@ -1,8 +1,8 @@
 OBJ_DIR=./obj
-LIB_DIR=./lib
+LIB_DIR=./output_lib
 
-INC=-I./header
-SRC=cpp
+INC=-I./include
+SRC=src
 
 LOGGER_OBJ_NAME=logger.o
 LOGGER_LIB_NAME=liblogger.a

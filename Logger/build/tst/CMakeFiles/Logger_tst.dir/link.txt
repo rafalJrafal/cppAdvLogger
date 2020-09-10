@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/Logger_tst.dir/Test.cpp.o CMakeFiles/Logger_tst.dir/main.cpp.o  -o Logger_tst  ../src/libLogger_lib.a ../lib/libgtestd.a -lpthread 

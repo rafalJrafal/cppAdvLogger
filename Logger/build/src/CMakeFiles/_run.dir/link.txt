@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/_run.dir/LogFormatter.cpp.o CMakeFiles/_run.dir/Logger.cpp.o CMakeFiles/_run.dir/main.cpp.o  -o _run 
